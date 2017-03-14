@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>my</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TargetFind</servlet-name>
+    <servlet-class>web.TargetFind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ArrayFind</servlet-name>
+    <servlet-class>web.ArrayFind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SampleFind</servlet-name>
+    <servlet-class>web.SampleFind</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Attributes</servlet-name>
+    <servlet-class>web.Attributes</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>TargetFind</servlet-name>
+    <url-pattern>/TargetFind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ArrayFind</servlet-name>
+    <url-pattern>/ArrayFind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SampleFind</servlet-name>
+    <url-pattern>/SampleFind</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Attributes</servlet-name>
+    <url-pattern>/Attributes</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
